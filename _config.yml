@@ -1,0 +1,58 @@
+# ============================================================
+# AI GOVERNANCE — Flagship Research Repo
+# Part of amritesh-sec research hub
+# ============================================================
+
+title: "AI Governance | Amritesh"
+tagline: "AI Governance · EU AI Act · NIST AI RMF · Board-Level AI Risk"
+description: "AI governance research covering EU AI Act compliance, NIST AI Risk Management Framework, AI policy development, and board-level AI risk reporting by Amritesh. United States, United Kingdom, and European Union focus."
+author: "Amritesh"
+baseurl: "/ai-governance"
+url: "https://amritesh-sec.github.io"
+
+parent_site:
+  name: "Amritesh.sec"
+  url: "https://amritesh-sec.github.io"
+
+nordvault_url: "https://nordvaultsec.github.io"
+
+lang: "en"
+timezone: "Europe/London"
+permalink: /:year/:month/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: "highlight"
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Amritesh"
+      category: "ai-governance"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor/bundle
+  - vendor/cache
+  - vendor/gems
+  - vendor/ruby
+  - TEMPLATE*.md
