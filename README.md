@@ -9,7 +9,7 @@ AI governance research covering EU AI Act compliance, NIST AI Risk Management Fr
 
 **[→ Live Site](https://amritesh-sec.github.io/ai-governance/)**
 
---- A
+---
 
 ## Coverage
 
